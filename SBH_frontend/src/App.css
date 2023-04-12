@@ -1,0 +1,115 @@
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#image{
+  image-rendering: auto;
+  image-orientation: 0grad;
+  
+}
+
+/* .App{
+  background-image: url("https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?cs=srgb&dl=pexels-ahmed-muntasir-912050.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+h1{
+  color: azure;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+}
+
+nav{
+  color: white;
+  backface-visibility: hidden;
+}
+
+h3{
+  text-decoration: solid;
+  text-align: left;
+}
+
+.inputs {
+  display: flex;
+  text-align: left;
+  align-items: start;
+  flex-direction: column;
+}
+
+
+
+.apps {
+  background-color: #282c34;
+  background-image: url("https://i.pinimg.com/736x/2a/f3/54/2af354320103a8ba49f1e240ed9f47f5.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  vertical-align: baseline;
+  
+}
+.header img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  left: 300px;
+  right : 30px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 13px;
+  left: 10px;
+}
+input[type="radio"]{
+  vertical-align: baseline;
+}
+#output{
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.datass{
+  text-align: left;
+  left: 10px
+}
